@@ -13,7 +13,12 @@ function Home() {
 
     return (
         <div className="main-wrapper">
-            Home page
+            <h1>Let our Hive make a difference!!</h1>
+            <div className="content">
+                <p>From building websites to attract your customers to providing your employees a way to have access to materials they need to do their jobs, we are here to help.</p>
+                <p>BeeDev IT Services offers simple designs that are responsive</p>
+                <p></p>
+            </div>
         </div>
     );
 }

@@ -1,2 +1,54 @@
 @import 'base.less';
 
+@media @400 {
+    .App {
+        nav {
+          .title-bar {
+              img {
+                 width: 15em; 
+              }
+          }  
+        }
+    }
+}
+
+@media @530 {
+    .App {
+        nav {
+            .title-bar {
+                img {
+                    width: 18em;
+                }
+            }
+        }
+    }
+}
+@media @730 {
+    .App {
+        nav {
+            .flexrow();
+
+            .nav-links {
+                a {
+                    padding: 1em;
+                }
+            }
+        }
+        .main-wrapper {
+            h1 {
+                font-size: 2.5em;
+            }
+            .content {
+                .packages {
+                    .the-items {
+                        .flexrow();
+                        flex-wrap: wrap;
+                        .item-card {
+                            flex-wrap: wrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

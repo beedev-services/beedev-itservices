@@ -16,3 +16,35 @@
 .center {
   margin: auto;
 }
+@media only screen and (min-width: 400px) {
+  .App nav .title-bar img {
+    width: 15em;
+  }
+}
+@media only screen and (min-width: 530px) {
+  .App nav .title-bar img {
+    width: 18em;
+  }
+}
+@media only screen and (min-width: 730px) {
+  .App nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .App nav .nav-links a {
+    padding: 1em;
+  }
+  .App .main-wrapper h1 {
+    font-size: 2.5em;
+  }
+  .App .main-wrapper .content .packages .the-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .App .main-wrapper .content .packages .the-items .item-card {
+    flex-wrap: wrap;
+  }
+}

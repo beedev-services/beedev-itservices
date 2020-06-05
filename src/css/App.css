@@ -196,6 +196,51 @@ body {
   align-items: center;
   padding: 1em;
 }
+.App .main-wrapper h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 0 0.5em 0;
+}
+.App .main-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 0 0.5em 0;
+}
+.App .main-wrapper .content p {
+  padding: 0.5em;
+}
+.App .main-wrapper .content .packages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .main-wrapper .content .packages .the-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.App .main-wrapper .content .packages .the-items .item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px groove #a6a267;
+  padding: 0.2em;
+  margin: 0.5em;
+}
+.App .main-wrapper .content .packages .the-items .item-card h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.App .main-wrapper .content .packages .the-items .item-card .item-info {
+  font-style: italic;
+}
 .App .footer {
   display: flex;
   flex-direction: column;
@@ -216,4 +261,36 @@ body {
 .App .footer .madeby h4 {
   font-weight: 200;
   color: #fcf8d9;
+}
+@media only screen and (min-width: 400px) {
+  .App nav .title-bar img {
+    width: 15em;
+  }
+}
+@media only screen and (min-width: 530px) {
+  .App nav .title-bar img {
+    width: 18em;
+  }
+}
+@media only screen and (min-width: 730px) {
+  .App nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .App nav .nav-links a {
+    padding: 1em;
+  }
+  .App .main-wrapper h1 {
+    font-size: 2.5em;
+  }
+  .App .main-wrapper .content .packages .the-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .App .main-wrapper .content .packages .the-items .item-card {
+    flex-wrap: wrap;
+  }
 }
