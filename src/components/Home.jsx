@@ -11,6 +11,12 @@ function Home() {
     // alert(covid19, index);
     // });
 
+    const production = ['Website is in production mode at this time'];
+
+    production.forEach((Production, index) => {
+        alert(Production, index);
+    });
+
     return (
         <div className="main-wrapper">
             <h1>Let our Hive make a difference!!</h1>
