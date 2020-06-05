@@ -1,0 +1,64 @@
+@import 'less/reset.less';
+@import 'less/base.less';
+
+.App {
+    background-color: @mainbg;
+    color: @font;
+
+    nav {
+        .flexcolumn();
+        justify-content: space-evenly;
+        border: @border;
+        padding: .5em;
+        background-color: @navbg;
+        color: @mainbg;
+
+        .title-bar {
+            .flexcolumn();
+
+            img {
+                width: 12em;
+            }
+        }
+        .nav-links {
+            .flexrow();
+            padding: .5em;
+
+            a {
+                padding: 0 .5em;
+                text-decoration: none;
+                color: @font;
+
+                &:hover {
+                    background-color: @mainbg;
+                }
+            }
+        }
+    }
+    .main-wrapper {
+        .flexcolumn();
+        padding: 1em;
+    }
+    .footer {
+        .flexcolumn();
+        background-color: @alt;
+        border: @altborder; 
+
+        .madeby {
+            .flexrow();
+            padding: 1em .2em;
+
+            img {
+                width: 2em;
+            }
+            h4 {
+                font-weight: 200;
+                color: @mainbg;
+            }
+       }
+    }
+}
+
+
+
+@import 'less/media.less';
