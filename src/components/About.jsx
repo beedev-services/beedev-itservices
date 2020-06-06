@@ -18,7 +18,7 @@ function About() {
                         <h4>Melissa Longenberger</h4>
                         <p>Owner & Operator</p>
                         <p>Head Web Developer</p>
-                        <p><a href="https://melissa-longenberger.com">Portfolio</a></p>
+                        <p><a href="https://melissa-longenberger.com" target="_blank">Portfolio</a></p>
                         </div>
                     </div>
                     <div className="about">
