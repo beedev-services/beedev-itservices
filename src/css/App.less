@@ -45,6 +45,14 @@
             text-align: center;
             padding: 0 0 .5em 0;
         }
+        .links {
+            .flexrow();
+            
+            a {
+                color: @font;
+                padding: .2em;
+            }
+        }
 
         .content {
             .flexcolumn();
@@ -53,24 +61,46 @@
             p {
                 padding: .5em;
             }
-            .packages {
+            .section {
                 .flexcolumn();
 
-                .the-items {
+                h3 {
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin-top: 1em; 
+                }
+                .title {
+                    border-bottom: @altborder;
+                }
+                .packages {
                     .flexcolumn();
-                    padding: .5em;
-                    .item-card {
-                        .flexcolumn();
-                        border: @altborder;
-                        padding: .2em;
-                        margin: .5em;
     
-                        h3 {
-                            font-weight: bold;
-                            text-transform: uppercase;
-                        }
-                        .item-info {
-                            font-style: italic;
+                    .the-items {
+                        .flexcolumn();
+                        padding: .5em;
+                      
+                        .item-card {
+                            .flexcolumn();
+                            border: @border2;
+                            padding: .2em;
+                            margin: .5em;
+        
+                            h3 {
+                                font-weight: bold;
+                                text-transform: uppercase;
+                                padding-bottom: .2em;
+                            }
+
+                            p {
+                                text-align: center;
+                            }
+                            .item-info {
+                                font-style: italic;
+
+                                p {
+                                    text-align: left;
+                                }
+                            }
                         }
                     }
                 }
@@ -80,7 +110,8 @@
     .footer {
         .flexcolumn();
         background-color: @alt;
-        border: @altborder; 
+        border: @altborder;
+        margin-bottom: 3em;
 
         .madeby {
             .flexrow();
@@ -88,6 +119,7 @@
 
             img {
                 width: 2em;
+                margin: .2em;
             }
             h4 {
                 font-weight: 200;
