@@ -1,11 +1,12 @@
 export default [
     {
         package: "Add-On Pkg #1",
-        name: "Monthly updates",
+        name: "Basic updates",
         id: 0,
-        price: "50/month",
-        info01: "* Updating or adding new pages or documents",
+        price: 50,
+        info01: "* Update current pages as needed.",
         info02: "* Max of 10 pages with updates",
+        info03: "* Add digital documents to existing notion workspace."
     },
     {
         package: "Add-on Pkg #2",
@@ -25,10 +26,19 @@ export default [
     {
         package: "Add-on Pkg #4",
         name: "Simple SSL",
-        id: 2,
+        id: 3,
         price: 50.00,
         info01: "* Create a SSL account through Cloudflare",
         info02: "* You MUST have root domain DNS access to add new settings.",
         info03: "* Will change DNS if login information for root domain is provided.",
+    },
+    {
+        package: "Add-on Pkg #5",
+        name: "Basic yearly maintenance",
+        id: 4,
+        price: "200/year",
+        info01: "* Includes upkeep of yearly billed items - Domain name, Hosting, SSL",
+        info02: "* Update page content quarterly as needed",
+        info03: "* Max of 10 page websites.",
     },
 ];

@@ -15,6 +15,6 @@ export default [
         info01: "* Simple website up to 5 pages - Including Home, About, & Contact.",
         info02: "* Create Domain Name and Hosting accounts in your name.",
         info03: "* One approved will upload files to the hosting account.",
-        info04: "* Once uploaded will turn over all hosting and domain account information.",
+        info04: "* Once uploaded will turn over all hosting and domain account information (future billing will be your responsibility unless Add-on is purchased).",
     },
 ];

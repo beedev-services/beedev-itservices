@@ -221,6 +221,43 @@ body {
 .App .main-wrapper .content p {
   padding: 0.5em;
 }
+.App .main-wrapper .content .about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .main-wrapper .content .about-wrapper .image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.3em;
+}
+.App .main-wrapper .content .about-wrapper .image img {
+  width: 8em;
+  border: 2px groove #3e8e95;
+  border-radius: 50%;
+}
+.App .main-wrapper .content .about-wrapper .image .position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .main-wrapper .content .about-wrapper .image .position h4 {
+  font-weight: bold;
+  padding: 0.5em;
+}
+.App .main-wrapper .content .about-wrapper .image .position p {
+  padding: 0.3em;
+}
+.App .main-wrapper .content .about-wrapper .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+}
 .App .main-wrapper .content .section {
   display: flex;
   flex-direction: column;

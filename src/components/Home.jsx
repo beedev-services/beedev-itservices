@@ -11,7 +11,7 @@ function Home() {
     // alert(covid19, index);
     // });
 
-    const production = ['Website is in production mode at this time'];
+    const production = ['Updates are being made to the site over the next month.  Please be patient.'];
 
     production.forEach((Production, index) => {
         alert(Production, index);

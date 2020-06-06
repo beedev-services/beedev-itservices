@@ -61,6 +61,35 @@
             p {
                 padding: .5em;
             }
+            .about-wrapper {
+                .flexcolumn();
+
+                .image {
+                    .flexrow();
+                    padding: .3em;
+
+                    img {
+                        width: 8em;
+                        border: @imgborder;
+                        border-radius: 50%;
+                    }
+                    .position {
+                        .flexcolumn();
+
+                        h4 {
+                            font-weight: bold;
+                            padding: .5em;
+                        }
+                        p {
+                            padding:.3em;
+                        }
+                    }
+                }
+                .about {
+                    .flexcolumn();
+                    padding: .3em;
+                }
+            }
             .section {
                 .flexcolumn();
 

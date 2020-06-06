@@ -9,10 +9,9 @@ function Contact() {
         <div className="main-wrapper">
             <h1>Contacting BeeDev IT Services</h1>
             <div className="content">
-            <p>We have our chat service up and running below 24/7.  If we aren't online at the time of your request don't worry we will still get it the very next business day, just fill out the form that pops up.</p>
-            <p>We also have a Facebook page where you are reach out to us</p>
-            <p>Email more your thing?  We have that too</p>
-            <p>We have a phone too but we ask that you use other means first</p>
+            <p><b>Chat with us!</b> - Below is a button for you to reach out to us at anytime.  If we aren't available a form will be available to let us know.</p>
+            <p><b>Facebook</b> - Click <a href="https://www.facebook.com/beedevitservices" target="_blank">here</a> to view our page</p>
+            <p><b>Email:</b> - Feel free to send an email to <a href="mailto: melissa@beedev-itservices.com">melissa@beedev-itservices.com</a></p>
             </div>
         </div>
     );

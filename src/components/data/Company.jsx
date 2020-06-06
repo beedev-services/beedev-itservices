@@ -17,6 +17,7 @@ function Company(props) {
             <p>{item.info04}</p>
           </div>
           <p>See <a href="#addon">Add-on</a> section below for additional options</p>
+          <p>Ask about quick turn around pricing</p>
       </div>
         ))}
       </div>
