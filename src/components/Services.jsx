@@ -3,15 +3,15 @@ import { useHistory } from "react-router-dom";
 import Customer from './data/Customer';
 import Company from './data/Company';
 import AddOns from './data/AddOns';
-import compdata from './data/companydata';
-import custdata from './data/customerdata';
+import intdata from './data/internaldata';
+import publicdata from './data/publicdata';
 import addonsdata from './data/addonsdata';
 
 function Services(props) {
     const history = useHistory();
     console.log("ml: services:", history);
-    const [customer] = useState(custdata);
-    const [company] = useState(compdata);
+    const [customer] = useState(publicdata);
+    const [internal] = useState(intdata);
     const [addons] = useState(addonsdata);
 
     return (
@@ -36,7 +36,7 @@ function Services(props) {
                     <p>What Employees and Employers can see</p>
                     <p>We offer the following Packages:</p>
                     <div className="packages">
-                        <Company items={company} />
+                        <Company items={internal} />
                     </div>
                 </div>
                 <div className="section" id="addons">

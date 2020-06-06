@@ -21,5 +21,14 @@ export default [
         id: 2,
         price: "30/page",
         info01: "* Create additional pages to new websites",
-    }
+    },
+    {
+        package: "Add-on Pkg #4",
+        name: "Simple SSL",
+        id: 2,
+        price: 50.00,
+        info01: "* Create a SSL account through Cloudflare",
+        info02: "* You MUST have root domain DNS access to add new settings.",
+        info03: "* Will change DNS if login information for root domain is provided.",
+    },
 ];
