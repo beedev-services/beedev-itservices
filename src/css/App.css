@@ -217,10 +217,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0.5em 0 0.5em 0;
-  max-width: 600px;
 }
 .App .main-wrapper .content p {
   padding: 0.5em;
+  max-width: 600px;
 }
 .App .main-wrapper .content .about-wrapper {
   display: flex;
