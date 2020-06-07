@@ -9,6 +9,19 @@
               }
           }  
         }
+        .main-wrapper {
+            .content {
+                .section {
+                    .packages {
+                        .the-items {
+                            .item-card {
+                                width: 330px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -21,8 +34,22 @@
                 }
             }
         }
+        .main-wrapper {
+            .content {
+                .section {
+                    .packages {
+                        .the-items {
+                            .item-card {
+                                width: 500px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
 @media @730 {
     .App {
         nav {
@@ -34,17 +61,25 @@
                 }
             }
         }
-        .main-wrapper {
+        .main-wrapper {  
+            min-height: 400px;
+            justify-content: flex-start;
+
             h1 {
                 font-size: 2.5em;
             }
             .content {
-                .packages {
-                    .the-items {
-                        .flexrow();
-                        flex-wrap: wrap;
-                        .item-card {
+                .section {
+                    .packages {
+                        .the-items {
+                            .flexrow();
                             flex-wrap: wrap;
+    
+                            .item-card {
+                                flex-wrap: wrap;
+                                width: 400px;
+                                align-self: flex-start;
+                            }
                         }
                     }
                 }

@@ -5,17 +5,11 @@ function Home() {
     const history = useHistory();
     console.log("ml: home:", history);
 
-    // const covid = ['COVID-19 ANNOUNCEMENT!!!! Services are limited, please contact for more information'];
+    // const production = ['Updates are being made to the site over the next month.  Please be patient.'];
 
-    // covid.forEach((covid19,  index) => {
-    // alert(covid19, index);
+    // production.forEach((Production, index) => {
+    //     alert(Production, index);
     // });
-
-    const production = ['Updates are being made to the site over the next month.  Please be patient.'];
-
-    production.forEach((Production, index) => {
-        alert(Production, index);
-    });
 
     return (
         <div className="main-wrapper">

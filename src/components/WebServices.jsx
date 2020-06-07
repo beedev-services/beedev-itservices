@@ -1,25 +1,25 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import Customer from './data/Customer';
-import Company from './data/Company';
-import AddOns from './data/AddOns';
-import intdata from './data/internaldata';
-import publicdata from './data/publicdata';
-import addonsdata from './data/addonsdata';
+import Customer from './webdata/Customer';
+import Company from './webdata/Company';
+import AddOns from './webdata/AddOns';
+import intdata from './webdata/internaldata';
+import publicdata from './webdata/publicdata';
+import addonsdata from './webdata/addonsdata';
 
-function Services(props) {
+function WebServices(props) {
     const history = useHistory();
-    console.log("ml: services:", history);
+    console.log("ml: web services:", history);
     const [customer] = useState(publicdata);
     const [internal] = useState(intdata);
     const [addons] = useState(addonsdata);
 
     return (
         <div className="main-wrapper">
-            <h1>BeeDev IT Services - What we offer</h1>
+            <h1>Website Services</h1>
             <div className="links">
-                <a href="#public">Public Websites</a> | 
-                <a href="#internal">Internal Websites</a> | 
+                <a href="#public">Public Website Packages</a> | 
+                <a href="#internal">Internal Websites Packages</a> | 
                 <a href="#addons">Add-Ons</a>
             </div>
             <div className="content">
@@ -40,9 +40,9 @@ function Services(props) {
                     </div>
                 </div>
                 <div className="section" id="addons">
-                    <h3 className="title">Add Ons</h3>
-                    <p>These items can be added to any package that doesn't already have it</p>
-                    <p>We offer the following Add-On Packages:</p>
+                    <h3 className="title">Add-Ons</h3>
+                    <p>Items that can be added to packages</p>
+                    <p>We offer the following Add-On Items / Packages:</p>
                     <div className="packages">
                         <AddOns items={addons} />
                     </div>
@@ -52,4 +52,4 @@ function Services(props) {
     );
 }
 
-export default Services;
+export default WebServices;

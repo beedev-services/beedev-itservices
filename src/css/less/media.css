@@ -20,10 +20,16 @@
   .App nav .title-bar img {
     width: 15em;
   }
+  .App .main-wrapper .content .section .packages .the-items .item-card {
+    width: 330px;
+  }
 }
 @media only screen and (min-width: 530px) {
   .App nav .title-bar img {
     width: 18em;
+  }
+  .App .main-wrapper .content .section .packages .the-items .item-card {
+    width: 500px;
   }
 }
 @media only screen and (min-width: 730px) {
@@ -35,16 +41,22 @@
   .App nav .nav-links a {
     padding: 1em;
   }
+  .App .main-wrapper {
+    min-height: 400px;
+    justify-content: flex-start;
+  }
   .App .main-wrapper h1 {
     font-size: 2.5em;
   }
-  .App .main-wrapper .content .packages .the-items {
+  .App .main-wrapper .content .section .packages .the-items {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
   }
-  .App .main-wrapper .content .packages .the-items .item-card {
+  .App .main-wrapper .content .section .packages .the-items .item-card {
     flex-wrap: wrap;
+    width: 400px;
+    align-self: flex-start;
   }
 }

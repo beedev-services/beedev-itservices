@@ -1,7 +1,7 @@
 import React from "react";
 
-function Company(props) {
-    console.log("ml: company: list:", props);
+function Residential(props) {
+    console.log("ml: itdata: residential: list:", props);
 
     return (
         <div className="the-items">
@@ -16,12 +16,13 @@ function Company(props) {
             <p>{item.info03}</p>
             <p>{item.info04}</p>
           </div>
+          <p>**{item.finished}**</p>
           <p>See <a href="#addon">Add-on</a> section below for additional options</p>
           <p>Ask about quick turn around pricing</p>
       </div>
         ))}
       </div>
     );
-}
+};
 
-export default Company;
+export default Residential;

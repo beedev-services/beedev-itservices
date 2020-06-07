@@ -16,6 +16,7 @@ function Customer(props) {
               <p>{item.info03}</p>
               <p>{item.info04}</p>
             </div>
+            <p>**{item.finished}**</p>
             <p>See <a href="#addon">Add-on</a> section below for additional options</p>
             <p>Ask about quick turn around pricing</p>
       </div>

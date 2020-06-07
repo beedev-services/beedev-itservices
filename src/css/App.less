@@ -57,6 +57,7 @@
         .content {
             .flexcolumn();
             padding: .5em 0 .5em 0;
+            max-width: 600px;
 
             p {
                 padding: .5em;
@@ -64,30 +65,34 @@
             .about-wrapper {
                 .flexcolumn();
 
-                .image {
-                    .flexrow();
-                    padding: .3em;
-
-                    img {
-                        width: 8em;
-                        border: @imgborder;
-                        border-radius: 50%;
-                    }
-                    .position {
-                        .flexcolumn();
-
-                        h4 {
-                            font-weight: bold;
-                            padding: .5em;
-                        }
-                        p {
-                            padding:.3em;
-                        }
-                    }
-                }
-                .about {
+                .employee-card {
                     .flexcolumn();
-                    padding: .3em;
+
+                    .image {
+                        .flexrow();
+                        padding: .3em;
+    
+                        img {
+                            width: 8em;
+                            border: @imgborder;
+                            border-radius: 50%;
+                        }
+                        .position {
+                            .flexcolumn();
+    
+                            h4 {
+                                font-weight: bold;
+                                padding: .5em;
+                            }
+                            p {
+                                padding:.3em;
+                            }
+                        }
+                    }
+                    .about {
+                        .flexcolumn();
+                        padding: .3em;
+                    }
                 }
             }
             .section {
@@ -113,6 +118,8 @@
                             border: @border2;
                             padding: .2em;
                             margin: .5em;
+                            width: 230px;
+                            min-height: 275px;
         
                             h3 {
                                 font-weight: bold;

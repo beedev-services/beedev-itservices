@@ -1,7 +1,7 @@
 import React from "react";
 
 function AddOns(props) {
-    console.log("ml: addons: list:", props);
+    console.log("ml: itdata: addons: list:", props);
 
     return (
         <div className="the-items">

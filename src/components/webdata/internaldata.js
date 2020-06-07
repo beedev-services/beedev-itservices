@@ -8,5 +8,6 @@ export default [
         info02: "* Add digital documents/policies to workspace",
         info03: "* Add a page with links to common tools used by employees",
         info04: "* 10 page total including documents",
+        finished: "Typical turn-around for this package is 7-10 Business Days",
     },
 ];
