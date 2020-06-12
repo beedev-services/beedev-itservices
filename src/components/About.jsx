@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import melissa from '../images/melissa.png';
+import nick from '../images/nick.jpg';
 
 function About() {
     const history = useHistory();
@@ -19,7 +20,7 @@ function About() {
                             <div className="position">
                             <h4>Melissa Longenberger</h4>
                             <p>Owner</p>
-                            <p>Web Developer & IT Engineer</p>
+                            <p>Web Developer & Network Engineer</p>
                             <p><a href="https://melissa-longenberger.com" target="_blank">Portfolio</a></p>
                             </div>
                         </div>
@@ -30,7 +31,7 @@ function About() {
                     </div>
                     <div className="employee-card">
                         <div className="image">
-                            <img src="#" alt="Nick - Co-Owner" />
+                            <img src={nick} alt="Nick - Co-Owner" />
                             <div className="position">
                                 <h4>Nick Longenberger</h4>
                                 <p>Owner</p>
