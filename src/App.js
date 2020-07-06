@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Link, Switch } from "react-router-dom";
 import './css/App.css';
 import beelogo from './images/beelogo.jpg';
-import beedev2 from './images/beedev2.png';
+import beedev from './images/beedev.png';
 import Home from './components/Home';
 import About from './components/About';
 import Contact  from './components/Contact';
@@ -27,7 +27,7 @@ export default function App() {
     <div className="App">
       <nav>
         <div className="title-bar">
-          <img src={beedev2} alt="logo" />
+          <img src={beedev} alt="logo" />
         </div>
         <div className="nav-links">
           <Link to="/">Home</Link>
@@ -59,7 +59,7 @@ export default function App() {
       <div className="footer">
       <div className="madeby">
         <img src={beelogo} alt="" />
-        <h4>Created by BeeDev IT Services &copy; 2020</h4>
+        <h4>Created by BeeDev Services &copy; 2020</h4>
         </div>
       </div>
     </div>

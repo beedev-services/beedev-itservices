@@ -15,8 +15,14 @@ function Home() {
         <div className="main-wrapper">
             <h1>Let our Hive make a difference!!</h1>
             <div className="content">
-                <p>From building websites to attract your customers to providing your employees a way to have access to materials they need to do their jobs, we are here to help.</p>
-                <p>BeeDev IT Services offers simple designs that are responsive</p>
+                <p>From building websites to attract your customers to providing your employees a way to have access to materials they need to do their jobs and to repairing systems, we are here to help.</p>
+                <ul>
+                    <li className="list-header">What we offer:</li>
+                    <li>* Responsive, clean, and unique Websites</li>
+                    <li>* Functional Internal Websites  to keep your employee's on task</li>
+                    <li>* Gaming system repairs</li>
+                    <li>* And More....</li>
+                </ul>
                 <p></p>
             </div>
         </div>

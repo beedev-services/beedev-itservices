@@ -13,7 +13,7 @@ function RepairServices() {
 
     return (
         <div className="main-wrapper">
-            <h1>Repair Services</h1>
+            <h1 id="repairimg">Repair Services</h1>
             <div className="links">
                 <a href="#packages">Packages</a> | 
                 <a href="#addons">Add-Ons</a>

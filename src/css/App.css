@@ -202,6 +202,9 @@ body {
   text-align: center;
   padding: 0 0 0.5em 0;
 }
+.App .main-wrapper #repairimg {
+  background-image: url(../images/repair.jpg);
+}
 .App .main-wrapper .links {
   display: flex;
   flex-direction: row;
