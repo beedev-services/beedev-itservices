@@ -15,7 +15,7 @@ function Home() {
         <div className="main-wrapper">
             <h1>Let our Hive make a difference!!</h1>
             <div className="content">
-                <p>From building websites to attract your customers to providing your employees a way to have access to materials they need to do their jobs and to repairing systems, we are here to help.</p>
+                <p>We want to help your business grow.</p>
                 <ul>
                     <li className="list-header">What we offer:</li>
                     <li>* Responsive, clean, and unique Websites</li>

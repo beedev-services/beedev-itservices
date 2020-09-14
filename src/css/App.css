@@ -204,6 +204,7 @@ body {
 }
 .App .main-wrapper #repairimg {
   background-image: url(../images/repair.jpg);
+  color: #fcf8d9;
 }
 .App .main-wrapper .links {
   display: flex;
