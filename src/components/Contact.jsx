@@ -13,6 +13,9 @@ function Contact() {
             <p><b>Facebook</b> - Click <a href="https://www.facebook.com/beedevservices" target="_blank">here</a> to view our page</p>
             <p><b>Email:</b> - Feel free to send an email to <a href="mailto: melissa@beedevitservices.com">melissa@beedev-services.com</a></p>
             </div>
+            <form>
+                Contact form inserted here
+            </form>
         </div>
     );
 }

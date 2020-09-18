@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import melissa from '../images/melissa.png';
-import nick from '../images/nick.jpg';
+// import nick from '../images/nick.jpg';
 
 function About() {
     const history = useHistory();
@@ -29,7 +29,7 @@ function About() {
                             <p>After hours of research and several online classes I built my 1st website for a local photographer and found that helping her get her name out there and a place for her to showcase her talents was something I was enjoyed.  After enrolling in an immersive online Full Stack Web Developer school and learning how much more there is to Web Development my desire to help others grew.</p>
                         </div>
                     </div>
-                    <div className="employee-card">
+                    {/* <div className="employee-card">
                         <div className="image">
                             <img src={nick} alt="Nick - Co-Owner" />
                             <div className="position">
@@ -41,7 +41,7 @@ function About() {
                         <div className="about">
                             <p>With a knack for fixing things has become known around the area for repairing Game Systems.</p>
                         </div>
-                    </div>       
+                    </div>        */}
                 </div>
             </div>
         </div>

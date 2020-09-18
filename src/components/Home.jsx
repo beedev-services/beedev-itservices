@@ -16,13 +16,7 @@ function Home() {
             <h1>Let our Hive make a difference!!</h1>
             <div className="content">
                 <p>We want to help your business grow.</p>
-                <ul>
-                    <li className="list-header">What we offer:</li>
-                    <li>* Responsive, clean, and unique Websites</li>
-                    <li>* Functional Internal Websites  to keep your employee's on task</li>
-                    <li>* Gaming system repairs</li>
-                    <li>* And More....</li>
-                </ul>
+                
                 <p></p>
             </div>
         </div>

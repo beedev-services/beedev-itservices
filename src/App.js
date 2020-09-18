@@ -7,8 +7,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact  from './components/Contact';
 import WebServices from './components/WebServices';
-import ItServices from './components/ItServices';
-import RepairServices from './components/RepairServices';
+// import ItServices from './components/ItServices';
+// import RepairServices from './components/RepairServices';
 
 export default function App() {
     //<!--Start of Tawk.to Script-->
@@ -34,8 +34,8 @@ export default function App() {
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/web-services">Web Services</Link>
-          <Link to="/it-services">IT Services</Link>
-          <Link to="/repair-services">Repair Services</Link>
+          {/* <Link to="/it-services">IT Services</Link> */}
+          {/* <Link to="/repair-services">Repair Services</Link> */}
         </div>
       </nav>
       <Switch>
@@ -48,17 +48,18 @@ export default function App() {
           <Route path="/web-services">
             <WebServices />
           </Route>
-          <Route path="/it-services">
+          {/* <Route path="/it-services">
             <ItServices />
-          </Route>
-          <Route path="/repair-services">
+          </Route> */}
+          {/* <Route path="/repair-services">
             <RepairServices />
-          </Route>
+          </Route> */}
           <Route path="/" component={Home} />
         </Switch>
       <div className="footer">
       <div className="madeby">
         <img src={beelogo} alt="" />
+        <h4>Located in Columiba County, PA</h4>
         <h4>Created by BeeDev Services &copy; 2020</h4>
         </div>
       </div>
