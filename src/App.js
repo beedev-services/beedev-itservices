@@ -4,7 +4,7 @@ import './css/App.css';
 import beelogo from './images/beelogo.jpg';
 import beedev from './images/beedev.png';
 import Home from './components/Home';
-import About from './components/About';
+import Team from './components/Team';
 import Contact  from './components/Contact';
 import WebServices from './components/WebServices';
 // import ItServices from './components/ItServices';
@@ -31,7 +31,7 @@ export default function App() {
         </div>
         <div className="nav-links">
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/team">The Team</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/web-services">Web Services</Link>
           {/* <Link to="/it-services">IT Services</Link> */}
@@ -39,8 +39,8 @@ export default function App() {
         </div>
       </nav>
       <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/team">
+            <Team />
           </Route>
           <Route path="/contact">
             <Contact />
@@ -57,11 +57,9 @@ export default function App() {
           <Route path="/" component={Home} />
         </Switch>
       <div className="footer">
-      <div className="madeby">
-        <img src={beelogo} alt="" />
+      <img src={beelogo} alt="" />
         <h4>Located in Columiba County, PA</h4>
         <h4>Created by BeeDev Services &copy; 2020</h4>
-        </div>
       </div>
     </div>
   );

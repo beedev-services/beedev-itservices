@@ -202,6 +202,12 @@ body {
   text-align: center;
   padding: 0 0 0.5em 0;
 }
+.App .main-wrapper h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 0 0.5em 0;
+}
 .App .main-wrapper #repairimg {
   background-image: url(../images/repair.jpg);
   color: #fcf8d9;
@@ -223,8 +229,22 @@ body {
   padding: 0.5em 0 0.5em 0;
 }
 .App .main-wrapper .content p {
+  font-size: 1.2em;
   padding: 0.5em;
   max-width: 600px;
+}
+.App .main-wrapper .content .home-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .main-wrapper .content .home-header #heading {
+  width: 90%;
+}
+.App .main-wrapper .content .home-header #questions {
+  width: 90%;
+  margin-top: 1em;
 }
 .App .main-wrapper .content .about-wrapper {
   display: flex;
@@ -330,19 +350,14 @@ body {
   border: 4px groove #a6a267;
   margin-bottom: 3em;
 }
-.App .footer .madeby {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 1em 0.2em;
-}
-.App .footer .madeby img {
+.App .footer img {
   width: 2em;
   margin: 0.2em;
 }
-.App .footer .madeby h4 {
+.App .footer h4 {
   font-weight: 200;
   color: #fcf8d9;
+  padding: 0.5em;
 }
 @media only screen and (min-width: 400px) {
   .App nav .title-bar img {
@@ -375,6 +390,18 @@ body {
   }
   .App .main-wrapper h1 {
     font-size: 2.5em;
+  }
+  .App .main-wrapper .content .home-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .App .main-wrapper .content .home-header #heading {
+    width: 45%;
+  }
+  .App .main-wrapper .content .home-header #questions {
+    width: 45%;
   }
   .App .main-wrapper .content .section .packages .the-items {
     display: flex;

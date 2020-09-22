@@ -48,6 +48,18 @@
   .App .main-wrapper h1 {
     font-size: 2.5em;
   }
+  .App .main-wrapper .content .home-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .App .main-wrapper .content .home-header #heading {
+    width: 45%;
+  }
+  .App .main-wrapper .content .home-header #questions {
+    width: 45%;
+  }
   .App .main-wrapper .content .section .packages .the-items {
     display: flex;
     flex-direction: row;
