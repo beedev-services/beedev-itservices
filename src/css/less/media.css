@@ -31,6 +31,12 @@
   .App .main-wrapper .content .section .packages .the-items .item-card {
     width: 500px;
   }
+  .App .footer .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0.5em;
+  }
 }
 @media only screen and (min-width: 730px) {
   .App nav {
