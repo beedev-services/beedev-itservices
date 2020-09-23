@@ -166,19 +166,30 @@
         }
     }
     .footer {
-        .flexcolumn();
+        .flexrow();
         background-color: @alt;
         border: @altborder;
         margin-bottom: 3em;
+        justify-content: center;
 
-        img {
-            width: 2em;
-            margin: .2em;
+        .icons {
+            .flexcolumn();
+            img {
+                width: 2em;
+                margin: .5em;
+            }
+            .social {
+                width: 1.4em;
+                border-radius: 50%;
+            }
         }
-        h4 {
-            font-weight: 200;
-            color: @mainbg;
-            padding: .5em;
+        .madeby {
+            .flexcolumn();
+            h4 {
+                font-weight: 200;
+                color: @mainbg;
+                padding: .5em;
+            }
         }
     }
 }

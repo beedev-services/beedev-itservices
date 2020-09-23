@@ -55,10 +55,11 @@
     justify-content: center;
   }
   .App .main-wrapper .content .home-header #heading {
-    width: 45%;
+    width: 35%;
   }
   .App .main-wrapper .content .home-header #questions {
-    width: 45%;
+    width: 35%;
+    margin-top: 0;
   }
   .App .main-wrapper .content .section .packages .the-items {
     display: flex;

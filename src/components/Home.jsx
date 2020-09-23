@@ -22,8 +22,12 @@ function Home() {
                     <img src={Questions} alt="Questions" id="questions" />
                 </div>
                 <div>
-                <h2 className="home-answer">BeeDev Services has solutions!</h2>
-                    <p>In nature a Bee Hive is the work of a colony of bees.  Thats BeeDev Services works.  We want to work WITH YOU.  We take that hive mentality personally.  We have the skills and the time to create websites, but you have ideas and know about your business.  Together we can create, build, update, and even fix your website.</p>
+                <h2 className="home-answer">
+                    BeeDev Services has solutions!
+                </h2>
+                <p>
+                    In nature a Bee Hive is the work of a colony of bees.  Thats BeeDev Services works.  We want to work WITH YOU.  We take that hive mentality personally.  We have the skills and the time to create websites, but you have ideas and know about your business.  Together we can create, build, update, and even fix your website.
+                </p>
                 </div>
             </div>
         </div>

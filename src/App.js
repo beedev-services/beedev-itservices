@@ -3,12 +3,12 @@ import { Route, Link, Switch } from "react-router-dom";
 import './css/App.css';
 import beelogo from './images/beelogo.jpg';
 import beedev from './images/beedev.png';
+import github from './images/github.png';
+import linkedin from './images/linkedin.png';
 import Home from './components/Home';
 import Team from './components/Team';
 import Contact  from './components/Contact';
 import WebServices from './components/WebServices';
-// import ItServices from './components/ItServices';
-// import RepairServices from './components/RepairServices';
 
 export default function App() {
     //<!--Start of Tawk.to Script-->
@@ -34,8 +34,6 @@ export default function App() {
           <Link to="/team">The Team</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/web-services">Web Services</Link>
-          {/* <Link to="/it-services">IT Services</Link> */}
-          {/* <Link to="/repair-services">Repair Services</Link> */}
         </div>
       </nav>
       <Switch>
@@ -48,18 +46,19 @@ export default function App() {
           <Route path="/web-services">
             <WebServices />
           </Route>
-          {/* <Route path="/it-services">
-            <ItServices />
-          </Route> */}
-          {/* <Route path="/repair-services">
-            <RepairServices />
-          </Route> */}
           <Route path="/" component={Home} />
         </Switch>
       <div className="footer">
-      <img src={beelogo} alt="" />
-        <h4>Located in Columiba County, PA</h4>
-        <h4>Created by BeeDev Services &copy; 2020</h4>
+        <div className="icons">
+          <img src={beelogo} alt="" />
+          <a href="https://github.com/beedev-services"><img src={github} alt="github" className="social" /></a>
+          <a href="https://www.linkedin.com/in/melissa-longenberger/"><img src={linkedin} alt="linkedin" className="social" /></a>
+        </div>
+        <div className="madeby">
+          <h4>Created by BeeDev Services &copy; 2020</h4>
+          <h4>Located in Columbia County, PA</h4>
+          <h4>Phone 570-221-9892</h4>
+        </div>
       </div>
     </div>
   );

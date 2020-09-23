@@ -343,18 +343,34 @@ body {
 }
 .App .footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   background-color: #a6a267;
   border: 4px groove #a6a267;
   margin-bottom: 3em;
+  justify-content: center;
 }
-.App .footer img {
+.App .footer .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .footer .icons img {
   width: 2em;
-  margin: 0.2em;
+  margin: 0.5em;
 }
-.App .footer h4 {
+.App .footer .icons .social {
+  width: 1.4em;
+  border-radius: 50%;
+}
+.App .footer .madeby {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .footer .madeby h4 {
   font-weight: 200;
   color: #fcf8d9;
   padding: 0.5em;
@@ -398,10 +414,11 @@ body {
     justify-content: center;
   }
   .App .main-wrapper .content .home-header #heading {
-    width: 45%;
+    width: 35%;
   }
   .App .main-wrapper .content .home-header #questions {
-    width: 45%;
+    width: 35%;
+    margin-top: 0;
   }
   .App .main-wrapper .content .section .packages .the-items {
     display: flex;
