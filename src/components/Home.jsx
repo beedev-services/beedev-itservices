@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import BeeDev from '../images/webdev.png';
-import Questions from '../images/questions.png';
+import Questions from '../images/2.png';
 
 function Home() {
     const history = useHistory();

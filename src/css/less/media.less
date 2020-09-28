@@ -50,7 +50,7 @@
         .footer {
             .icons {
                 .flexrow();
-                margin-right: .5em;
+                margin-right: 1em;
             }
         }
     }
@@ -75,18 +75,6 @@
                 font-size: 2.5em;
             }
             .content {
-                .home-header {
-                    .flexrow();
-                    justify-content: center;
-    
-                    #heading {
-                        width: 35%;
-                    }
-                    #questions {
-                        width: 35%;
-                        margin-top: 0;
-                    }
-                }
                 .section {
                     .packages {
                         .the-items {
@@ -99,6 +87,36 @@
                                 align-self: flex-start;
                             }
                         }
+                    }
+                }
+            }
+        }
+        .footer {
+            .icons {
+                margin-right: 2em;
+                img {
+                    width: 3em;
+                    margin: 1em;
+                }
+                .social {
+                    width: 2em;
+                }
+            }
+        }
+    }
+}
+
+@media @850 {
+    .App {
+        .main-wrapper {
+            .content {
+                .home-header {
+                    .flexrow();
+                    #heading {
+                        width: 40%;
+                    }
+                    #questions {
+                        width: 40%;
                     }
                 }
             }

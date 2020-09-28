@@ -208,10 +208,6 @@ body {
   text-align: center;
   padding: 0 0 0.5em 0;
 }
-.App .main-wrapper #repairimg {
-  background-image: url(../images/repair.jpg);
-  color: #fcf8d9;
-}
 .App .main-wrapper .links {
   display: flex;
   flex-direction: row;
@@ -394,7 +390,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 0.5em;
+    margin-right: 1em;
   }
 }
 @media only screen and (min-width: 730px) {
@@ -413,19 +409,6 @@ body {
   .App .main-wrapper h1 {
     font-size: 2.5em;
   }
-  .App .main-wrapper .content .home-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .App .main-wrapper .content .home-header #heading {
-    width: 35%;
-  }
-  .App .main-wrapper .content .home-header #questions {
-    width: 35%;
-    margin-top: 0;
-  }
   .App .main-wrapper .content .section .packages .the-items {
     display: flex;
     flex-direction: row;
@@ -436,5 +419,28 @@ body {
     flex-wrap: wrap;
     width: 400px;
     align-self: flex-start;
+  }
+  .App .footer .icons {
+    margin-right: 2em;
+  }
+  .App .footer .icons img {
+    width: 3em;
+    margin: 1em;
+  }
+  .App .footer .icons .social {
+    width: 2em;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .App .main-wrapper .content .home-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .App .main-wrapper .content .home-header #heading {
+    width: 40%;
+  }
+  .App .main-wrapper .content .home-header #questions {
+    width: 40%;
   }
 }
